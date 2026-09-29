@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  /* CMR College Branding Colors */
+  --color-cmr-blue: #0b3b60;       /* Deep navy blue for text/backgrounds */
+  --color-cmr-blue-dark: #072640;  /* Darker shade for hovers/borders */
+  --color-cmr-orange: #f37021;     /* Vibrant orange from the petals */
+  --color-cmr-green: #8cc63f;      /* Leaf green from the petals */
+  --color-cmr-lightgreen: #c4d72e; /* Light green from the center dot */
+}
+
+/* Enable class-based dark mode in Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
