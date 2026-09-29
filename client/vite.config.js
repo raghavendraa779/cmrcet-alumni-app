@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/cmrcet-alumni-app/',
   plugins: [react(), tailwindcss()],
 })
